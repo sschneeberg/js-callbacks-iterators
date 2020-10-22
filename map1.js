@@ -6,3 +6,8 @@ const mneumonics = ['My Very Excellent Mother Just Sent Me Nine Pizzas', 'Please
 
 // Your code here!
 
+const mneumonics2d = mneumonics.map(function(el) {
+    return el.split(" ");
+});
+
+console.log(mneumonics2d);
